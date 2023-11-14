@@ -1,0 +1,288 @@
+Files already downloaded and verified
+Files already downloaded and verified
+TASK_ID: 9, args: Namespace(sigma=0.25, skip=10, max=-1, N0=100, N=10000, alpha=0.01, batch_size=5000, model_path='/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/last.pth', freeze_epochs=8, freeze_lr=0.01, unfreeze_epochs=8, unfreeze_lr=0.001, num_noise_vec=2, lbd=20.0, eta=0.5)
+[9]: Number of parameters in the Encoder: 23.500352
+[9]: Number of parameters in the Predictor: 0.02049
+[9]: Number of parameters in the Classifier: 23.520842
+[9]: Number of trainable parameters in the Classifier: 0.02049
+Files already downloaded and verified
+Files already downloaded and verified
+TASK_ID: 8, args: Namespace(sigma=0.25, skip=10, max=-1, N0=100, N=10000, alpha=0.01, batch_size=5000, model_path='/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/last.pth', freeze_epochs=8, freeze_lr=0.01, unfreeze_epochs=8, unfreeze_lr=0.001, num_noise_vec=2, lbd=20.0, eta=0.5)
+[8]: Number of parameters in the Encoder: 23.500352
+[8]: Number of parameters in the Predictor: 0.02049
+[8]: Number of parameters in the Classifier: 23.520842
+[8]: Number of trainable parameters in the Classifier: 0.02049
+[8]: Accuracy of the network on the 10000 test images: 75.49%
+[9]: Accuracy of the network on the 10000 test images: 75.12%
+[8]: Accuracy of the network on the 10000 test images: 73.93% | Using noise with sigma=0.25
+[9]: Accuracy of the network on the 10000 test images: 73.65% | Using noise with sigma=0.25
+[9]: Accuracy of the network on the 10000 test images: 75.09%
+[8]: Accuracy of the network on the 10000 test images: 75.48%
+[9]: Accuracy of the network on the 10000 test images: 73.86% | Using noise with sigma=0.25
+[8]: Accuracy of the network on the 10000 test images: 73.77% | Using noise with sigma=0.25
+[9]: Accuracy of the network on the 10000 test images: 75.17%
+[8]: Accuracy of the network on the 10000 test images: 75.42%
+[9]: Accuracy of the network on the 10000 test images: 73.71% | Using noise with sigma=0.25
+[8]: Accuracy of the network on the 10000 test images: 73.65% | Using noise with sigma=0.25
+[9]: Accuracy of the network on the 10000 test images: 75.29%
+[8]: Accuracy of the network on the 10000 test images: 75.36%
+[9]: Accuracy of the network on the 10000 test images: 73.99% | Using noise with sigma=0.25
+[8]: Accuracy of the network on the 10000 test images: 73.98% | Using noise with sigma=0.25
+[9]: Accuracy of the network on the 10000 test images: 75.43%
+[8]: Accuracy of the network on the 10000 test images: 75.26%
+[9]: Accuracy of the network on the 10000 test images: 74.05% | Using noise with sigma=0.25
+[8]: Accuracy of the network on the 10000 test images: 73.63% | Using noise with sigma=0.25
+[9]: Accuracy of the network on the 10000 test images: 75.32%
+[8]: Accuracy of the network on the 10000 test images: 75.66%
+[9]: Accuracy of the network on the 10000 test images: 74.03% | Using noise with sigma=0.25
+[8]: Accuracy of the network on the 10000 test images: 73.96% | Using noise with sigma=0.25
+[9]: Accuracy of the network on the 10000 test images: 75.85%
+[8]: Accuracy of the network on the 10000 test images: 75.84%
+[9]: Accuracy of the network on the 10000 test images: 74.2% | Using noise with sigma=0.25
+[8]: Accuracy of the network on the 10000 test images: 74.1% | Using noise with sigma=0.25
+[9]: Accuracy of the network on the 10000 test images: 75.24%
+[8]: Accuracy of the network on the 10000 test images: 75.82%
+[9]: Accuracy of the network on the 10000 test images: 73.68% | Using noise with sigma=0.25
+[9]: Number of parameters in the Encoder: 23.500352
+[9]: Number of parameters in the Predictor: 0.02049
+[9]: Number of parameters in the Classifier: 23.520842
+[9]: Number of trainable parameters in the Classifier: 23.520842
+[8]: Accuracy of the network on the 10000 test images: 74.1% | Using noise with sigma=0.25
+[8]: Number of parameters in the Encoder: 23.500352
+[8]: Number of parameters in the Predictor: 0.02049
+[8]: Number of parameters in the Classifier: 23.520842
+[8]: Number of trainable parameters in the Classifier: 23.520842
+[9]: Accuracy of the network on the 10000 test images: 76.03%
+[8]: Accuracy of the network on the 10000 test images: 76.21%
+[9]: Accuracy of the network on the 10000 test images: 73.97% | Using noise with sigma=0.25
+[8]: Accuracy of the network on the 10000 test images: 74.4% | Using noise with sigma=0.25
+[9]: Accuracy of the network on the 10000 test images: 76.05%
+[8]: Accuracy of the network on the 10000 test images: 76.06%
+[9]: Accuracy of the network on the 10000 test images: 74.2% | Using noise with sigma=0.25
+[8]: Accuracy of the network on the 10000 test images: 74.24% | Using noise with sigma=0.25
+[9]: Accuracy of the network on the 10000 test images: 76.03%
+[8]: Accuracy of the network on the 10000 test images: 75.74%
+[9]: Accuracy of the network on the 10000 test images: 74.74% | Using noise with sigma=0.25
+[8]: Accuracy of the network on the 10000 test images: 74.15% | Using noise with sigma=0.25
+[9]: Accuracy of the network on the 10000 test images: 75.67%
+[8]: Accuracy of the network on the 10000 test images: 75.83%
+[9]: Accuracy of the network on the 10000 test images: 73.86% | Using noise with sigma=0.25
+[8]: Accuracy of the network on the 10000 test images: 73.98% | Using noise with sigma=0.25
+[9]: Accuracy of the network on the 10000 test images: 75.75%
+[8]: Accuracy of the network on the 10000 test images: 75.31%
+[9]: Accuracy of the network on the 10000 test images: 73.97% | Using noise with sigma=0.25
+[8]: Accuracy of the network on the 10000 test images: 73.95% | Using noise with sigma=0.25
+[9]: Accuracy of the network on the 10000 test images: 75.08%
+[8]: Accuracy of the network on the 10000 test images: 76.13%
+[9]: Accuracy of the network on the 10000 test images: 73.46% | Using noise with sigma=0.25
+[8]: Accuracy of the network on the 10000 test images: 74.36% | Using noise with sigma=0.25
+[9]: Accuracy of the network on the 10000 test images: 75.38%
+[8]: Accuracy of the network on the 10000 test images: 75.51%
+[9]: Accuracy of the network on the 10000 test images: 74.06% | Using noise with sigma=0.25
+[8]: Accuracy of the network on the 10000 test images: 73.51% | Using noise with sigma=0.25
+[9]: Accuracy of the network on the 10000 test images: 75.39%
+[8]: Accuracy of the network on the 10000 test images: 76.02%
+[9]: Accuracy of the network on the 10000 test images: 73.8% | Using noise with sigma=0.25
+[9]]: /scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/RS/1000_consistency_finetuned_reduced_10_sigma0.25_skip10_max-1_N0100_N10000_alpha0.01_batch5000_freeze8_unfreeze8_freeze_lr0.01_unfreeze_lr0.001_time_2023-08-15_12:33:57.txt
+[9] 0 / 10000
+[9] 100 / 10000
+[9] 200 / 10000
+[9] 300 / 10000
+[9] 400 / 10000
+[9] 500 / 10000
+[9] 600 / 10000
+[9] 700 / 10000
+[9] 800 / 10000
+[9] 900 / 10000
+[9] 1000 / 10000
+[9] 1100 / 10000
+[9] 1200 / 10000
+[9] 1300 / 10000
+[9] 1400 / 10000
+[9] 1500 / 10000
+[9] 1600 / 10000
+[9] 1700 / 10000
+[9] 1800 / 10000
+[9] 1900 / 10000
+[9] 2000 / 10000
+[9] 2100 / 10000
+[9] 2200 / 10000
+[9] 2300 / 10000
+[9] 2400 / 10000
+[9] 2500 / 10000
+[9] 2600 / 10000
+[9] 2700 / 10000
+[9] 2800 / 10000
+[9] 2900 / 10000
+[9] 3000 / 10000
+[9] 3100 / 10000
+[9] 3200 / 10000
+[9] 3300 / 10000
+[9] 3400 / 10000
+[9] 3500 / 10000
+[9] 3600 / 10000
+[9] 3700 / 10000
+[9] 3800 / 10000
+[9] 3900 / 10000
+[9] 4000 / 10000
+[9] 4100 / 10000
+[9] 4200 / 10000
+[9] 4300 / 10000
+[9] 4400 / 10000
+[9] 4500 / 10000
+[9] 4600 / 10000
+[9] 4700 / 10000
+[9] 4800 / 10000
+[9] 4900 / 10000
+[9] 5000 / 10000
+[9] 5100 / 10000
+[9] 5200 / 10000
+[9] 5300 / 10000
+[9] 5400 / 10000
+[9] 5500 / 10000
+[9] 5600 / 10000
+[9] 5700 / 10000
+[9] 5800 / 10000
+[9] 5900 / 10000
+[9] 6000 / 10000
+[9] 6100 / 10000
+[9] 6200 / 10000
+[9] 6300 / 10000
+[9] 6400 / 10000
+[9] 6500 / 10000
+[9] 6600 / 10000
+[9] 6700 / 10000
+[9] 6800 / 10000
+[9] 6900 / 10000
+[9] 7000 / 10000
+[9] 7100 / 10000
+[9] 7200 / 10000
+[9] 7300 / 10000
+[9] 7400 / 10000
+[9] 7500 / 10000
+[9] 7600 / 10000
+[9] 7700 / 10000
+[9] 7800 / 10000
+[9] 7900 / 10000
+[9] 8000 / 10000
+[9] 8100 / 10000
+[9] 8200 / 10000
+[9] 8300 / 10000
+[9] 8400 / 10000
+[9] 8500 / 10000
+[9] 8600 / 10000
+[9] 8700 / 10000
+[9] 8800 / 10000
+[9] 8900 / 10000
+[9] 9000 / 10000
+[9] 9100 / 10000
+[9] 9200 / 10000
+[9] 9300 / 10000
+[9] 9400 / 10000
+[9] 9500 / 10000
+[9] 9600 / 10000
+[9] 9700 / 10000
+[9] 9800 / 10000
+[9] 9900 / 10000
+[8]: Accuracy of the network on the 10000 test images: 73.84% | Using noise with sigma=0.25
+[8]]: /scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/RS/900_consistency_finetuned_reduced_10_sigma0.25_skip10_max-1_N0100_N10000_alpha0.01_batch5000_freeze8_unfreeze8_freeze_lr0.01_unfreeze_lr0.001_time_2023-08-15_12:33:58.txt
+[8] 0 / 10000
+[8] 100 / 10000
+[8] 200 / 10000
+[8] 300 / 10000
+[8] 400 / 10000
+[8] 500 / 10000
+[8] 600 / 10000
+[8] 700 / 10000
+[8] 800 / 10000
+[8] 900 / 10000
+[8] 1000 / 10000
+[8] 1100 / 10000
+[8] 1200 / 10000
+[8] 1300 / 10000
+[8] 1400 / 10000
+[8] 1500 / 10000
+[8] 1600 / 10000
+[8] 1700 / 10000
+[8] 1800 / 10000
+[8] 1900 / 10000
+[8] 2000 / 10000
+[8] 2100 / 10000
+[8] 2200 / 10000
+[8] 2300 / 10000
+[8] 2400 / 10000
+[8] 2500 / 10000
+[8] 2600 / 10000
+[8] 2700 / 10000
+[8] 2800 / 10000
+[8] 2900 / 10000
+[8] 3000 / 10000
+[8] 3100 / 10000
+[8] 3200 / 10000
+[8] 3300 / 10000
+[8] 3400 / 10000
+[8] 3500 / 10000
+[8] 3600 / 10000
+[8] 3700 / 10000
+[8] 3800 / 10000
+[8] 3900 / 10000
+[8] 4000 / 10000
+[8] 4100 / 10000
+[8] 4200 / 10000
+[8] 4300 / 10000
+[8] 4400 / 10000
+[8] 4500 / 10000
+[8] 4600 / 10000
+[8] 4700 / 10000
+[8] 4800 / 10000
+[8] 4900 / 10000
+[8] 5000 / 10000
+[8] 5100 / 10000
+[8] 5200 / 10000
+[8] 5300 / 10000
+[8] 5400 / 10000
+[8] 5500 / 10000
+[8] 5600 / 10000
+[8] 5700 / 10000
+[8] 5800 / 10000
+[8] 5900 / 10000
+[8] 6000 / 10000
+[8] 6100 / 10000
+[8] 6200 / 10000
+[8] 6300 / 10000
+[8] 6400 / 10000
+[8] 6500 / 10000
+[8] 6600 / 10000
+[8] 6700 / 10000
+[8] 6800 / 10000
+[8] 6900 / 10000
+[8] 7000 / 10000
+[8] 7100 / 10000
+[8] 7200 / 10000
+[8] 7300 / 10000
+[8] 7400 / 10000
+[8] 7500 / 10000
+[8] 7600 / 10000
+[8] 7700 / 10000
+[8] 7800 / 10000
+[8] 7900 / 10000
+[8] 8000 / 10000
+[8] 8100 / 10000
+[8] 8200 / 10000
+[8] 8300 / 10000
+[8] 8400 / 10000
+[8] 8500 / 10000
+[8] 8600 / 10000
+[8] 8700 / 10000
+[8] 8800 / 10000
+[8] 8900 / 10000
+[8] 9000 / 10000
+[8] 9100 / 10000
+[8] 9200 / 10000
+[8] 9300 / 10000
+[8] 9400 / 10000
+[8] 9500 / 10000
+[8] 9600 / 10000
+[8] 9700 / 10000
+[8] 9800 / 10000
+[8] 9900 / 10000

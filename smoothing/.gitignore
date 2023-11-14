@@ -1,0 +1,15 @@
+.idea
+*~
+models
+.DS_Store
+
+figures/
+visualize_output/
+dataset_cache/
+data/
+analysis/
+
+*/__pycache__/
+*/.ipynb_checkpoints/
+*/.idea/
+*/.DS_Store/

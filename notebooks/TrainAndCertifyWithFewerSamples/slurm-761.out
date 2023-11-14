@@ -1,0 +1,166 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(sigma=0.25, skip=10, max=-1, N0=100, N=10000, alpha=0.01, batch_size=5000, model_path='/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/last.pth', freeze_epochs=8, freeze_lr=0.01, unfreeze_epochs=8, unfreeze_lr=0.001, num_noise_vec=2, lbd=20.0, eta=0.5)
+Traceback (most recent call last):
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 220, in <module>
+    classifier = Classifier(weights_file, predictor).to(device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 174, in __init__
+    state_dict = torch.load(encoder_weights)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/400.pth'
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(sigma=0.25, skip=10, max=-1, N0=100, N=10000, alpha=0.01, batch_size=5000, model_path='/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/last.pth', freeze_epochs=8, freeze_lr=0.01, unfreeze_epochs=8, unfreeze_lr=0.001, num_noise_vec=2, lbd=20.0, eta=0.5)
+Traceback (most recent call last):
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 220, in <module>
+    classifier = Classifier(weights_file, predictor).to(device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 174, in __init__
+    state_dict = torch.load(encoder_weights)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/100.pth'
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(sigma=0.25, skip=10, max=-1, N0=100, N=10000, alpha=0.01, batch_size=5000, model_path='/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/last.pth', freeze_epochs=8, freeze_lr=0.01, unfreeze_epochs=8, unfreeze_lr=0.001, num_noise_vec=2, lbd=20.0, eta=0.5)
+Traceback (most recent call last):
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 220, in <module>
+    classifier = Classifier(weights_file, predictor).to(device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 174, in __init__
+    state_dict = torch.load(encoder_weights)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/600.pth'
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(sigma=0.25, skip=10, max=-1, N0=100, N=10000, alpha=0.01, batch_size=5000, model_path='/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/last.pth', freeze_epochs=8, freeze_lr=0.01, unfreeze_epochs=8, unfreeze_lr=0.001, num_noise_vec=2, lbd=20.0, eta=0.5)
+Traceback (most recent call last):
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 220, in <module>
+    classifier = Classifier(weights_file, predictor).to(device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 174, in __init__
+    state_dict = torch.load(encoder_weights)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/200.pth'
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(sigma=0.25, skip=10, max=-1, N0=100, N=10000, alpha=0.01, batch_size=5000, model_path='/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/last.pth', freeze_epochs=8, freeze_lr=0.01, unfreeze_epochs=8, unfreeze_lr=0.001, num_noise_vec=2, lbd=20.0, eta=0.5)
+Traceback (most recent call last):
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 220, in <module>
+    classifier = Classifier(weights_file, predictor).to(device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 174, in __init__
+    state_dict = torch.load(encoder_weights)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/300.pth'
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(sigma=0.25, skip=10, max=-1, N0=100, N=10000, alpha=0.01, batch_size=5000, model_path='/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/last.pth', freeze_epochs=8, freeze_lr=0.01, unfreeze_epochs=8, unfreeze_lr=0.001, num_noise_vec=2, lbd=20.0, eta=0.5)
+Traceback (most recent call last):
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 220, in <module>
+    classifier = Classifier(weights_file, predictor).to(device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 174, in __init__
+    state_dict = torch.load(encoder_weights)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/500.pth'
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(sigma=0.25, skip=10, max=-1, N0=100, N=10000, alpha=0.01, batch_size=5000, model_path='/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/last.pth', freeze_epochs=8, freeze_lr=0.01, unfreeze_epochs=8, unfreeze_lr=0.001, num_noise_vec=2, lbd=20.0, eta=0.5)
+Traceback (most recent call last):
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 220, in <module>
+    classifier = Classifier(weights_file, predictor).to(device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 174, in __init__
+    state_dict = torch.load(encoder_weights)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/700.pth'
+Files already downloaded and verified
+Files already downloaded and verified
+Namespace(sigma=0.25, skip=10, max=-1, N0=100, N=10000, alpha=0.01, batch_size=5000, model_path='/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/last.pth', freeze_epochs=8, freeze_lr=0.01, unfreeze_epochs=8, unfreeze_lr=0.001, num_noise_vec=2, lbd=20.0, eta=0.5)
+Traceback (most recent call last):
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 220, in <module>
+    classifier = Classifier(weights_file, predictor).to(device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/Project/SelfSupForRanSmooth/notebooks/TrainAndCertifyWithFewerSamples/batched_run_consistency_finetune.py", line 174, in __init__
+    state_dict = torch.load(encoder_weights)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mehrshad_mirmohammadi/anaconda3/lib/python3.11/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/mehrshad_mirmohammadi/Project/SupContrast/save/SupCon/cifar10_models/SupCon_cifar10_resnet50_lr_0.5_decay_0.0001_bsz_512_temp_0.1_trial_Sequential_cosine_warm/800.pth'
+srun: error: gcp-eu-1: task 3: Exited with exit code 1
+srun: error: gcp-eu-1: task 1: Exited with exit code 1
+srun: error: gcp-eu-1: tasks 0,5: Exited with exit code 1
+srun: error: gcp-eu-1: task 4: Exited with exit code 1
+srun: error: gcp-eu-1: tasks 2,7: Exited with exit code 1
+srun: error: gcp-eu-1: task 6: Exited with exit code 1
